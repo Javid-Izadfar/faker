@@ -1143,6 +1143,21 @@ const iban: Iban = {
       ],
       format: 'VGkk bbbb cccc cccc cccc cccc',
     },
+    {
+      country: 'IR',
+      total: 26,
+      bban: [
+        {
+          type: 'n',
+          count: 3,
+        },
+        {
+          type: 'n',
+          count: 19,
+        },
+      ],
+      format: 'IRkk bbbc cccc cccc cccc cccc cc',
+    },
   ],
   iso3166: [
     'AD',
